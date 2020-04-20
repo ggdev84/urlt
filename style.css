@@ -1,0 +1,157 @@
+@media screen and (max-device-width:680px){
+    @font-face{
+        font-family:"custom";
+        src:url("Pacifico.ttf");
+    }
+    
+    html,body{
+        min-height: 100%;
+    }
+    
+    body{
+        background-color:rgb(7, 78, 160);
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        width:100%;
+        margin:0;
+        position:fixed;
+    }
+    
+    h1{
+        font-family:"custom";
+        font-size:60px;
+    }
+    
+    h2{
+        font-size:25px;
+    }
+    
+    h1,h2,h3{
+        color:white;
+        margin-top:10px;
+    }
+    
+    
+    ul{
+        margin:0;
+        list-style-type:none;
+        padding:0;
+    }
+
+    
+    input{
+        text-align:center;
+        border:none;
+        border-bottom : 1px solid white;
+        background-color:inherit;
+        width: 300px;
+        height:40px;
+        font-size:25px;
+        color:white;
+    }
+    
+    input::placeholder{
+        color:rgb(221, 221, 221);
+    }
+    
+    button{
+        height:40px;
+        font-size:25px;
+        background-color:inherit;
+        border:none;
+        color:white;
+        cursor:pointer;
+        transition:color 0.3s linear;
+    }
+    
+    button:hover{
+        color:rgb(170, 170, 170);
+    }
+    
+    #conditions{
+        display:block;
+        font-size:20px;
+        border:none;
+        margin-top:60px;
+        color:white;
+        position:fixed;
+        width:100%;
+    }
+}
+
+@media screen and (min-device-width:680px){
+@font-face{
+    font-family:"custom";
+    src:url("Pacifico.ttf");
+}
+
+
+body{
+    background-color:rgb(7, 78, 160);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family:"custom";
+    font-size:40px;
+}
+
+h2{
+    font-size:20px;
+}
+
+h1,h2,h3{
+    color:white;
+    margin-top:35px;
+}
+
+
+ul{
+    margin-top : 50px;
+    list-style-type: none;
+}
+
+li{
+    display:inline-block;
+}
+
+input{
+    border:none;
+    border-bottom : 1px solid white;
+    background-color:inherit;
+    width: 300px;
+    height:30px;
+    font-size:17px;
+    padding-left:5px;
+    color:white;
+}
+
+input::placeholder{
+    color:white;
+}
+
+button{
+    height:35px;
+    font-size:20px;
+    background-color:inherit;
+    border:none;
+    color:white;
+    cursor:pointer;
+    transition:color 0.3s linear;
+}
+
+button:hover{
+    color:rgb(170, 170, 170);
+}
+
+#conditions{
+    font-size:16px;
+    border:none;
+    border-bottom:1px solid white;
+    left:30px;
+    bottom:20px;
+    position:absolute;
+    color:white;
+}
+}
